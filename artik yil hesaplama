@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class project {
+    public static void main(String[] args) {
+        int yıl;
+        Scanner inp = new Scanner(System.in);
+
+        System.out.print("Ogrenmek istediginiz yili giriniz :");
+        yıl = inp.nextInt();
+
+        int artık = yıl % 4;
+        int artık2 = yıl % 100;
+        int artık3 = yıl % 400;
+
+
+if(artık2==0){
+    switch (artık3) {
+
+        case 0:
+                System.out.print(yıl +  "Artik yildir.");
+                break;
+            }
+
+    } else if(artık==0){
+    System.out.print(yıl +  "Artik yildir");
+    } else{
+    System.out.print(yıl + "Artik yil degildir.");
+    }
+    }
+
+}
